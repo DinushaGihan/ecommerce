@@ -1,12 +1,10 @@
 import './App.css';
-import HomePage from './pages/HomePage';
-import Profile from './pages/Profile';
+import HomePage from './pages/delivery/HomePage';
 
 function App() {
   return (
     <div>
       <HomePage />
-      <Profile />
     </div>
   );
 }
