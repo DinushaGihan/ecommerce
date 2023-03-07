@@ -1,9 +1,17 @@
 import React from "react";
-
+// import awakazalogo from '../../assets/delivery/images/';
 const Body = () => {
   return (
     <main className="container"><br />
       <h1>Welcome to Awakaza Delivery</h1><br />
+      <div className="card">
+      {/* <img src={awakazalogo} className="card-img-top" alt="..."></img> */}
+        <div className="card-body">
+          <h5 className="card-title">Latest News</h5>
+          <p className="card-text">Awakaza weekly NewsLetter here !</p>
+          <a href="#" className="btn btn-primary">Subscribe</a>
+        </div>
+      </div><br/>
       <p>
         E-commerce web architecture offers a wide range of advantages to both businesses and consumers. For businesses, e-commerce allows for a global reach and a 24/7 online presence, providing a level of convenience that traditional brick-and-mortar stores cannot match. E-commerce websites are also more cost-effective to set up and operate compared to physical stores, as they require less physical infrastructure and can be managed remotely. Additionally, e-commerce allows for more targeted marketing efforts through personalized recommendations and advertising, which can result in higher conversion rates and customer loyalty.
       </p>
