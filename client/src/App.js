@@ -1,10 +1,12 @@
-
 import './App.css';
+import HomePage from './pages/HomePage';
+import Profile from './pages/Profile';
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <HomePage />
+      <Profile />
     </div>
   );
 }
