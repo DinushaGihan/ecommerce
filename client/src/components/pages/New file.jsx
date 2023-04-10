@@ -6,7 +6,7 @@ const New = () => {
       <div className="col-md-6 mx-auto">
         <br />
         <br />
-        <h1 className="col-md-8 mx-auto">Welcome to Home Page !</h1>
+        <h1 className="col-md-8 mx-auto">Welcome to New Page !</h1>
         <br />
         <p>
           Online delivery service systems have become increasingly popular in
